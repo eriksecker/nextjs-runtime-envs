@@ -5,10 +5,11 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "heroku-ssl-redirect": "^0.0.4",
-		"next": "9.3.0",
-		"react": "16.13.1",
-		"react-dom": "16.13.1"
+    "next": "9.3.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   }
 }
