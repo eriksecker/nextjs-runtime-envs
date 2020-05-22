@@ -16,11 +16,11 @@ const Home = (props) => {
 	)
 }
 
-// Home.getInitialProps = async function() {
-// 	// const { API_URL } = serverRuntimeConfig
-// 	return {
-// 	// 	API_URL,
-// 	}
-// }
+Home.getInitialProps = async function() {
+	// const { API_URL } = serverRuntimeConfig
+	return {
+	// 	API_URL,
+	}
+}
 
 export default Home;
