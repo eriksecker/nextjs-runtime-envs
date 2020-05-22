@@ -2,9 +2,11 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p $PORT"
+    "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "heroku-ssl-redirect": "^0.0.4",
     "next": "latest",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
