@@ -1,7 +1,8 @@
 import getConfig from 'next/config'
 
+import Foo from '../components/Foo';
+
 const {
-	// serverRuntimeConfig,
 	publicRuntimeConfig,
 } = getConfig();
 
@@ -10,17 +11,10 @@ const { API_URL } = publicRuntimeConfig
 const Home = (props) => {
   return (
 		<div>
-			<p>No getInitialProps here</p>
 			<div>publicRuntimeConfig API_URL is {API_URL}</div>
+			<Foo />
 		</div>
 	)
 }
-
-// Home.getInitialProps = async function() {
-// 	// const { API_URL } = serverRuntimeConfig
-// 	return {
-// 	// 	API_URL,
-// 	}
-// }
 
 export default Home;
