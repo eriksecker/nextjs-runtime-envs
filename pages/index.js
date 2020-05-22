@@ -10,16 +10,17 @@ const { API_URL } = publicRuntimeConfig
 const Home = (props) => {
   return (
 		<div>
+			<p>No getInitialProps here</p>
 			<div>publicRuntimeConfig API_URL is {API_URL}</div>
 		</div>
 	)
 }
 
-Home.getInitialProps = async function() {
-	// const { API_URL } = serverRuntimeConfig
-	return {
-	// 	API_URL,
-	}
-}
+// Home.getInitialProps = async function() {
+// 	// const { API_URL } = serverRuntimeConfig
+// 	return {
+// 	// 	API_URL,
+// 	}
+// }
 
 export default Home;
