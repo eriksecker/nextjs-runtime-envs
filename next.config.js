@@ -6,9 +6,6 @@ module.exports = {
 		config.resolve.modules.push(path.resolve('./'));
 		return config;
 	},
-	serverRuntimeConfig: {
-    API_URL: process.env.API_URL,
-  },
   publicRuntimeConfig: {
     API_URL: process.env.API_URL,
   },
