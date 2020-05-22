@@ -11,7 +11,7 @@ const { API_URL } = publicRuntimeConfig
 const Home = (props) => {
   return (
 		<div>
-			<h4>app relative imports</h4>
+			<h4>dotenv added</h4>
 			<div>publicRuntimeConfig API_URL is {API_URL}</div>
 			<Foo />
 		</div>
